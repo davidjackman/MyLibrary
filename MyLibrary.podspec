@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
+  s.swift_version = '3.3'
   s.source_files = 'MyLibrary/Classes/**/*'
   
   # s.resource_bundles = {
